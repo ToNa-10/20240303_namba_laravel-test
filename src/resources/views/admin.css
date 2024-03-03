@@ -1,0 +1,88 @@
+.header {
+    background: #FFF;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    display: flex;
+}
+
+.header__logo {
+    margin-left: 300px;
+    color: #8F7F6F;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    width: 100%;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    color: #EDECEC;
+    background-color: #EDECEC;
+}
+
+.admin_content {
+    margin: 0 auto;
+    padding: 0px 15px 60px 15px;
+    max-width: 1230px;
+}
+
+.admin__heading {
+    text-align: center;
+    color: #8F7F6F;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+.admin__content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0 50px 0;
+    width: 80%;
+    border-radius: 3px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create-form{
+    display: flex;
+    justify-content: center;
+}
+
+.create-form input
+.create-form select{
+    padding: 10px;
+    border: 1px solid #F4F4F4;
+    background-color: #F4F4F4;
+    border-radius: 3px;
+    appearance: none;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+.form__button-submit {
+    padding: auto;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.header__button {
+    margin-left: 200px;
+    background-color: #F1ECE6;
+    color: #D4CCC4;
+}

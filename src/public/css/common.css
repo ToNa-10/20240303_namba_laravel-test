@@ -1,0 +1,26 @@
+/* 共有するヘッダー */
+.header {
+    background: #FFF;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    text-align: center;
+    color: #8F7F6F;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.line {
+    height: 5px;
+    width: auto;
+    color: #EDECEC;
+    background-color: #EDECEC;
+}
